@@ -17,5 +17,7 @@ export default {
         },
     },
 
+    output: './dist/output.css', // Add this line
+
     plugins: [forms],
 };
