@@ -4,7 +4,9 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "watch": "mix watch"
+        "watch": "mix watch",
+        "build:css": "tailwindcss -i input.css -o dist/output.css"
+
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
